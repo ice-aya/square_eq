@@ -12,7 +12,7 @@ void print_array(double *x, int N) {
 
 void print_roots(double *x, int number_of_roots) {
 	if (number_of_roots) print_array(x, number_of_roots);
-	else 								 puts("Roots not foud");
+	else puts("Roots not found");
 }
 
 int linear_eq(double a, double b, double c, double **x) {
@@ -67,4 +67,5 @@ int main() {
 //  3  1   2  -   -
 // -1  1   0  0   1
 //  3  0 -27  3  -3
+
 //  5  0   0  0   -
