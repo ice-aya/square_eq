@@ -37,7 +37,8 @@ int main() {
 		printf("x[%d] = %lg; ", i + 1, x[i]);
 	}
 
-	if (!number_of_roots) puts("Roots not foud");
+	if (!number_of_roots) puts("Roots not found");
 	if (x) free(x);
 	return 0;
+
 }
